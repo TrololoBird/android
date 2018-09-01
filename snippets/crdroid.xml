@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+    <remote name="nos"
+        fetch="https://github.com/nitrogen-project"
+        sync-j="16" />
+
+    <remote name="wloot"
+        fetch="https://github.com/wloot"
+        sync-j="16" />
+        
+    <remote name="wp"
+        fetch="https://github.com/WhyProject"
+        sync-j="16" />
+    <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="p" />
+
+    <project path="device/xiaomi/sagit" name="device_xiaomi_sagit" remote="wloot" revision="crd-p" />
+    <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" remote="wloot" revision="crd" />
+    <project path="vendor/xiaomi" name="SAGIT_vendor_xiaomi" remote="wloot" revision="pie" />
+    <project path="kernel/xiaomi/msm8998" name="Mi6" remote="wloot" revision="pie" />
+
+    <!-- qcom -->
+    <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="wp" revision="p" />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="wp" revision="p" />
+    <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="wp" revision="p" />
+    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="wp" revision="p" />
+    <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="wp" revision="p" />
 
   <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
