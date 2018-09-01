@@ -15,7 +15,7 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="nos" revision="p" />
 
     <project path="device/xiaomi/sagit" name="device_xiaomi_sagit" remote="wloot" revision="crd-p" />
-    <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" remote="wloot" revision="crd" />
+    <project path="device/xiaomi/msm8998-common" name="device_xiaomi_msm8998-common" remote="wloot" revision="crd-l" />
     <project path="vendor/xiaomi" name="SAGIT_vendor_xiaomi" remote="wloot" revision="pie" />
     <project path="kernel/xiaomi/msm8998" name="Mi6" remote="wloot" revision="pie" />
 
